@@ -3,7 +3,7 @@
   {{ with .FirstSection }}
     <a href="{{ .Params.editBaseURL | default ($.Param "editBaseURL") }}{{ strings.TrimSuffix "/" ($root.Permalink | relLangURL) }}.md" target="_blank" rel="noreferrer">
       <button class="editBtn" aria-label="Edit This Page Button">
-        {{ i18n "edit-this-page" | default "EDIT THIS PAGE" }}
+        {{ i18n "edit-this-page" | default "НАШЛИ ОШИБКУ?" }}
       </button>
     </a>
   {{ end }}
