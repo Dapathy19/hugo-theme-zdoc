@@ -1,0 +1,26 @@
+[toc-label]
+other = "Короткий змист сторинки"
+
+[tooltip-written]
+other = "Написанно"
+
+[tooltip-modified]
+other = "Переписанно"
+
+[tooltip-reading-time]
+other = "Час"
+
+[summary-dateformat]
+other = "Сер 2, 2006"
+
+[reading-time]
+other = "час чтения"
+
+[single-writtenBy]
+other = "Автори"
+
+[edit-this-page]
+other = "ЗНАЙШЛИ ПОМИЛКУ?"
+
+[search-placeholder]
+other = "Для пошуку по сайту натисныть сюди"

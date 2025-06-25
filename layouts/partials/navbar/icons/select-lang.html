@@ -1,7 +1,9 @@
 {{ if $.Param "enableLangChange" }}
 <div class="dropdown">
   <button class="lang__dropdown navbar__icons--icon" aria-label="Select Site Language">
-    {{ partial "svgs/translate.svg" (dict "width" 20 "height" 20) }}
+{{- if eq .Site.Language.Lang "ru" -}}<strong>РУС</strong>
+{{- else if eq .Site.Language.Lang "ua" -}}<strong>УКР</strong>
+{{- else -}}{{ .Site.Language.Lang | upper }}{{- end -}}
   </button>
   <div class="dropdown-content lang__dropdown--content">
     {{ $siteLanguages := .Site.Languages }}
